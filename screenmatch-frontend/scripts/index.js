@@ -19,7 +19,7 @@ function criarListaFilmes(elemento, dados) {
     ul.className = 'lista';
     const listaHTML = dados.map((filme) => `
         <li>
-            <a href="/detalhes.html?id=${filme.id}">
+            <a href="./detalhes.html?id=${filme.id}">
                 <img src="${filme.poster}" alt="${filme.title}">
             </a>
         </li>
